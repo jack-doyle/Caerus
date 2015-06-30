@@ -1,0 +1,137 @@
+/* [Table of contents] ----------------------------------------------------------
+
+1. General Styling
+2. Header
+3. Navigation
+4. Main Content
+5. Footer
+6. Other
+--------------------------------------------------------------------------------*/
+
+
+/* [Colour Reference] ----------------------------------------------------------
+
+background: 		#FFF
+normal text: 		#464646
+links: 				#5A9BD2
+headings: 			#464646
+footer:				#FFF
+--------------------------------------------------------------------------------*/
+
+
+/* 1. [General Styling]
+--------------------------------------------------------------------------------*/
+h3 a { 
+	color: #5A9BD2;
+	-moz-transition: all .15s ease-in-out;
+   -o-transition: all .15s ease-in-out;
+   -webkit-transition: all .15s ease-in-out;
+    transition: all .15s ease-in-out;
+}
+
+h3:hover { color: #216C85; }
+
+h5 { margin: 30px 0; }
+
+p a { color: #5A9BD2; }
+
+strong { font-weight: bold; }
+
+hr { 
+	margin: 75px 0;
+	opacity: .2;
+}
+
+span { color: #5A9BD2; }
+
+span:after { content: "\00a0\00a0"; }
+
+.short-hr {
+	margin: 100px auto;
+	opacity: .2;
+	width: 50%;
+}
+
+.break {
+	background-color: #5A9BD2;
+	height: 10px; 
+}
+
+/* 2. [Header]
+--------------------------------------------------------------------------------*/
+.contact-options {
+	font-family: 'Open Sans', 'Helvetica', 'Arial', sans-serif;
+	font-weight: 700;
+	margin-top: 20px;
+}
+
+.social-icon {
+	opacity: 0.6;
+   -moz-transition: all .15s ease-in-out;
+   -o-transition: all .15s ease-in-out;
+   -webkit-transition: all .15s ease-in-out;
+    transition: all .15s ease-in-out; }
+
+	.social-icon:hover { opacity: 1; }
+
+	.social-icon span { color: #464646; }
+
+	
+/* 3. [Navigation]
+--------------------------------------------------------------------------------*/
+.site-menu {
+	list-style-type: none;
+	margin: 20px auto;
+	width: 100%; }
+
+.site-menu-item {
+	color: #464646;
+	float: left;
+	font-family: 'Source Sans Pro', 'helvetica', 'Arial', sans-serif;
+	font-size: .85em;
+	font-weight: 700;
+	letter-spacing: 0.3px;
+	margin: 10px 15px;
+	padding: 5px 5px;
+	text-align: center;
+	text-transform: uppercase; }
+	
+	.site-menu-item:first-child { margin-left: 0; }
+
+	.site-menu-item.current { color: #5A9BD2; }
+
+
+/* 4. [Main Content]
+--------------------------------------------------------------------------------*/
+.twitter-timeline { height: 600px; }
+
+.info-box { width: 400px; }
+
+.info-box-big { font-weight: bold; }
+
+.aside {
+	font-size: .75em; 
+	margin-top: 50px; 
+}
+
+.download-link { color: #5A9BD2; }
+
+.publication a {
+	color: #5A9BD2; }
+
+
+/* 5. [Footer]
+--------------------------------------------------------------------------------*/
+.footer p {
+	font-size: .85em;
+	margin-top: 50px; 
+	margin-bottom: 65px;
+}
+
+	.footer p a { color: #5A9BD2; }
+
+	
+/* 6. [Other]
+--------------------------------------------------------------------------------*/
+#after-submission a {
+	color: #5A9BD2; }
