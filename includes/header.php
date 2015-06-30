@@ -9,7 +9,6 @@
 		<meta property="og:site_name" content="Caerus Educational Services">
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 		<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
-		<link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
 		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
 		<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600' rel='stylesheet' type='text/css'>
 		<link href="<?php get_styles();?>css/master.css" rel="stylesheet">
