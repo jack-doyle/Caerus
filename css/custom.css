@@ -47,14 +47,12 @@ span { color: #5A9BD2; }
 
 span:after { content: "\00a0\00a0"; }
 
-.page-title {
-	margin-bottom: 100px;
-}
+.page-title { margin-bottom: 100px; }
 
-.page-title:before {
-	content: "|\00a0";
-	color: #5A9BD2;
-}
+	.page-title:before {
+		content: "|\00a0";
+		color: #5A9BD2;
+	}
 
 .short-hr {
 	margin: 100px auto;
@@ -62,25 +60,21 @@ span:after { content: "\00a0\00a0"; }
 	width: 50%;
 }
 
-.short-hr.left {
-	color: red;
-	float: left;
-	margin-top: 3px;
-	margin-left: 5px;
-	opacity: .5;
-	width: 15%;
-}
+	.short-hr.left {
+		color: red;
+		float: left;
+		margin-top: 3px;
+		margin-left: 5px;
+		opacity: .5;
+		width: 15%;
+	}
 
-.short-hr.left:after {
-	content: "";
-	display: table;
-	clear: both;
-}
+		.short-hr.left:after {
+			content: "";
+			display: table;
+			clear: both;
+		}
 
-.break {
-	background-color: #5A9BD2;
-	height: 25px; 
-}
 
 /* 2. [Header]
 --------------------------------------------------------------------------------*/
@@ -120,7 +114,12 @@ span:after { content: "\00a0\00a0"; }
 
 	.social-icon span { color: #fff; }
 
-	
+.break {
+	background-color: #5A9BD2;
+	height: 25px; 
+}
+
+
 /* 3. [Navigation]
 --------------------------------------------------------------------------------*/
 .site-menu {
@@ -185,13 +184,13 @@ span:after { content: "\00a0\00a0"; }
 --------------------------------------------------------------------------------*/
 .footer {
 	background-color: #5A9BD2; 
-	height: 250px; }
+	height: 250px; 
+}
 
 .footer p {
 	color: #fff;
 	font-size: .85em;
 	margin-top: 75px; 
-	
 }
 
 	.footer p a,
@@ -200,7 +199,7 @@ span:after { content: "\00a0\00a0"; }
 		font-weight: bold; 
 	}
 
-	
+
 /* 6. [Other]
 --------------------------------------------------------------------------------*/
 #after-submission a { color: #5A9BD2; }
@@ -214,14 +213,12 @@ span:after { content: "\00a0\00a0"; }
 	width: 20px;
 	z-index: -1;
 }
-	
+
 
 /* 7. [Media Queries]
 --------------------------------------------------------------------------------*/
 @media (max-width: 1279px) {
-	#site-title {
-		text-align: center;
-	}
+	#site-title { text-align: center; }
 	
 	#photo {
 		display: block;
