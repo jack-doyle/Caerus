@@ -1,3 +1,7 @@
 .u-centered { text-align: center; }
 
 .u-justified { text-align: justify; }
+
+.u-left { float: left; }
+
+.u-right { float: right; }

@@ -1,6 +1,8 @@
 <?php include('../includes/header.php'); ?>
 
-<div class="container"><br>
+<div class="container">
+	<h5 class="page-title"><strong>Contact</strong></h5>
+	
 	<h2 class="u-centered"><strong>Contact us today.</strong></h2><br>
 	<p class="u-centered">Enquiries are completely confidential and without obligation.</p><br><br>
 

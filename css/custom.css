@@ -46,10 +46,34 @@ span { color: #5A9BD2; }
 
 span:after { content: "\00a0\00a0"; }
 
+.page-title {
+	margin-bottom: 30px;
+}
+
+.page-title:before {
+	content: "|\00a0";
+	color: #5A9BD2;
+}
+
 .short-hr {
 	margin: 100px auto;
 	opacity: .2;
 	width: 50%;
+}
+
+.short-hr.left {
+	color: red;
+	float: left;
+	margin-top: 3px;
+	margin-left: 5px;
+	opacity: .5;
+	width: 15%;
+}
+
+.short-hr.left:after {
+	content: "";
+	display: table;
+	clear: both;
 }
 
 .break {
@@ -103,11 +127,16 @@ span:after { content: "\00a0\00a0"; }
 
 /* 4. [Main Content]
 --------------------------------------------------------------------------------*/
+#twitter-wrap { text-align: center; }
+
 .twitter-timeline { height: 600px; }
 
 .info-box { width: 400px; }
 
-.info-box-big { font-weight: bold; }
+.info-box-big { 
+	clear: both; 
+	font-weight: bold; 
+}
 
 .aside {
 	font-size: .75em; 
@@ -116,22 +145,36 @@ span:after { content: "\00a0\00a0"; }
 
 .download-link { color: #5A9BD2; }
 
-.publication a {
-	color: #5A9BD2; }
+.publication a { color: #5A9BD2; }
 
 
 /* 5. [Footer]
 --------------------------------------------------------------------------------*/
+.footer {
+	background-color: #5A9BD2; 
+	height: 200px; }
+
 .footer p {
+	color: #fff;
 	font-size: .85em;
 	margin-top: 50px; 
-	margin-bottom: 65px;
+	
 }
 
-	.footer p a { color: #5A9BD2; }
+	.footer p a,
+	.footer p span { color: #464646; }
 
 	
 /* 6. [Other]
 --------------------------------------------------------------------------------*/
 #after-submission a {
 	color: #5A9BD2; }
+	
+.vertical-bar {
+	background-color: #5A9BD2;
+	height: 230px;
+	left: 280px;
+	position: absolute;
+	top: 0;
+	width: 20px;
+	z-index: -1;

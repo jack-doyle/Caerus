@@ -1,6 +1,8 @@
 <?php include('../includes/header.php'); ?>
 
-<div class="container"><br>
+<div class="container">
+	<h5 class="page-title"><strong>Schools</strong></h5>
+	
 	<h2 class="u-centered"><strong>Caerus Education provides:</strong></h2><br><br>
 	<p class="u-centered">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="fa fa-life-ring fa-5x"></span><br><br><br>
 	<div class="row">

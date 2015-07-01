@@ -1,6 +1,8 @@
 <?php include('../includes/header.php'); ?>
 
-<div class="container"><br>
+<div class="container">
+	<h5 class="page-title"><strong>Publications</strong></h5>
+	
 	<p class="publication"><a href="http://dx.doi.org/10.1017/jgc.2014.15" target="_blank">Harkin, E., Doyle, A., & Mc Guckin, C. (2015).
 	Screening and assessment of Specific Learning Disabilities in Higher Education Institutes in the Republic of Ireland</a>.
 	Journal of Psychologists and Counsellors in Schools, doi:10.1017/jgc.2014.15.</p><br>

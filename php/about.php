@@ -1,6 +1,8 @@
 <?php include('../includes/header.php'); ?>
 
 <div class="container">
+	<h5 class="page-title"><strong>About</strong></h5>
+
 	<div class="row">
 		<div class="col-md-12">
 			<h5 class="u-centered"><strong>Caerus Education is an independent consultancy based in Dublin.  We specialise in:</strong></h5><br><br>

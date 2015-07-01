@@ -1,7 +1,9 @@
 <?php include('../includes/header.php'); ?>
 
 <div class="container">
-	<div class="info-box-big u-centered"><br>
+	<h5 class="page-title"><strong>Families</strong></h5>
+	
+	<div class="info-box-big u-centered">
 		<h2>An Individual Transition Plan</h2><br><br>
 		<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="fa fa-user fa-5x"></span></p><br><br>
 		

@@ -1,6 +1,8 @@
 <?php include('../includes/header.php'); ?>
 
-<div class="container"><br>
+<div class="container">
+	<h5 class="page-title"><strong>Workplace</strong></h5>
+	
 	<div class="row">
 		<div class="col-md-12">
 			<h2 class="u-centered"><strong>Support for employees</strong></h2><br><br>	
