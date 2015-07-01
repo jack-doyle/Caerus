@@ -1,0 +1,10 @@
+From:    jack doyle
+Email:   <aaaa@aaa.com>
+Message: test
+
+--------------------------------------------------
+From:    jack doyle
+Email:   <aaaa@aaa.com>
+Message: test
+
+--------------------------------------------------

@@ -6,7 +6,7 @@
 	<h2 class="u-centered"><strong>Contact us today.</strong></h2><br>
 	<p class="u-centered">Enquiries are completely confidential and without obligation.</p><br><br>
 
-	<form class="contact-form" name="contact-form" method="POST" action="thanks.php">
+	<form class="contact-form" name="contact-form" method="POST" action="submit.php">
 		<fieldset>
 			<div id="firstname-entry">
 				<label for="firstname"><strong>First Name <span class="asterisk">*</span></strong></label>

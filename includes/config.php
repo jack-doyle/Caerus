@@ -3,7 +3,7 @@
 			$_SERVER['DOCUMENT_ROOT'].'/Caerus');
 			
 	define("EMAIL",
-			"info@myuniplan.ie");
+			"info@caerus.ie");
 	
 	define("LOG_FILE_PATH",
 			"../logs/message_log.txt");	

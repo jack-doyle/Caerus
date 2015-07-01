@@ -6,6 +6,7 @@
 4. Main Content
 5. Footer
 6. Other
+7. Media Queries
 --------------------------------------------------------------------------------*/
 
 
@@ -47,7 +48,7 @@ span { color: #5A9BD2; }
 span:after { content: "\00a0\00a0"; }
 
 .page-title {
-	margin-bottom: 30px;
+	margin-bottom: 100px;
 }
 
 .page-title:before {
@@ -78,15 +79,30 @@ span:after { content: "\00a0\00a0"; }
 
 .break {
 	background-color: #5A9BD2;
-	height: 10px; 
+	height: 25px; 
 }
 
 /* 2. [Header]
 --------------------------------------------------------------------------------*/
+#header-wrap {
+	background-image: 
+		linear-gradient(
+			rgba(0, 0, 0, 0.3),
+			rgba(0, 0, 0, 0.7)
+		),
+		url("../images/header.jpg");
+		
+	background-position: center;
+	background-size: cover;
+	color: #fff;
+	opacity: .75;
+	padding-top: 50px;
+}
+
 .contact-options {
 	font-family: 'Open Sans', 'Helvetica', 'Arial', sans-serif;
 	font-weight: 700;
-	margin-top: 20px;
+	margin-top: 15px;
 }
 
 .social-icon {
@@ -96,9 +112,13 @@ span:after { content: "\00a0\00a0"; }
    -webkit-transition: all .15s ease-in-out;
     transition: all .15s ease-in-out; }
 
-	.social-icon:hover { opacity: 1; }
+	.social-icon:hover { 
+		color: #5A9BD2;
+		opacity: 1; 
+		transform: translateY(-10%);
+	}
 
-	.social-icon span { color: #464646; }
+	.social-icon span { color: #fff; }
 
 	
 /* 3. [Navigation]
@@ -109,18 +129,29 @@ span:after { content: "\00a0\00a0"; }
 	width: 100%; }
 
 .site-menu-item {
-	color: #464646;
+	color: #fff;
 	float: left;
 	font-family: 'Source Sans Pro', 'helvetica', 'Arial', sans-serif;
-	font-size: .85em;
+	font-size: 1em;
 	font-weight: 700;
-	letter-spacing: 0.3px;
+	letter-spacing: .3px;
 	margin: 10px 15px;
 	padding: 5px 5px;
 	text-align: center;
-	text-transform: uppercase; }
+	text-transform: uppercase;
+
+	-moz-transition: all .15s ease-in-out;
+   -o-transition: all .15s ease-in-out;
+   -webkit-transition: all .15s ease-in-out;
+    transition: all .15s ease-in-out;
+}
 	
 	.site-menu-item:first-child { margin-left: 0; }
+	
+	.site-menu-item:hover {
+		color: #5A9BD2;
+		transform: translateY(-10%);
+	}
 
 	.site-menu-item.current { color: #5A9BD2; }
 
@@ -131,7 +162,9 @@ span:after { content: "\00a0\00a0"; }
 
 .twitter-timeline { height: 600px; }
 
-.info-box { width: 400px; }
+.info-box { 
+	margin: 0 auto;
+	width: 75%; }
 
 .info-box-big { 
 	clear: both; 
@@ -152,24 +185,26 @@ span:after { content: "\00a0\00a0"; }
 --------------------------------------------------------------------------------*/
 .footer {
 	background-color: #5A9BD2; 
-	height: 200px; }
+	height: 250px; }
 
 .footer p {
 	color: #fff;
 	font-size: .85em;
-	margin-top: 50px; 
+	margin-top: 75px; 
 	
 }
 
 	.footer p a,
-	.footer p span { color: #464646; }
+	.footer p span { 
+		color: #464646;
+		font-weight: bold; 
+	}
 
 	
 /* 6. [Other]
 --------------------------------------------------------------------------------*/
-#after-submission a {
-	color: #5A9BD2; }
-	
+#after-submission a { color: #5A9BD2; }
+
 .vertical-bar {
 	background-color: #5A9BD2;
 	height: 230px;
@@ -178,3 +213,28 @@ span:after { content: "\00a0\00a0"; }
 	top: 0;
 	width: 20px;
 	z-index: -1;
+}
+	
+
+/* 7. [Media Queries]
+--------------------------------------------------------------------------------*/
+@media (max-width: 1279px) {
+	#site-title {
+		text-align: center;
+	}
+	
+	#photo {
+		display: block;
+		margin: 20px auto;
+	}
+}
+
+@media (min-width: 319px) and (max-width: 767px) {
+	.contact-form { width: 100%; }
+	
+	.footer { padding: 0 10px; }
+}
+	
+@media (max-width: 360px) {
+	.info-box { margin: 10px auto; }
+}
