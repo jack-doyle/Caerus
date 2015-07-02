@@ -21,7 +21,7 @@ function get_url($name) {
 		} else {
 			$path = "";
 		}
-	// else if already in the php directory,
+	// else if on a different page (already in the 'php/' directory),
 	} else {
 		// look in this directory for all the pages,
 		if($name !== "index") {
