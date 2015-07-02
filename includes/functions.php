@@ -28,6 +28,7 @@ function get_url($name) {
 }
 	
 function get_current($name) {
+	// Add class ".current" to the menu item of the current page.
 	echo($class = strpos($_SERVER['PHP_SELF'], $name) !== false ? "current" : "");
 }
 ?>
