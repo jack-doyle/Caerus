@@ -47,13 +47,7 @@ span { color: #5A9BD2; }
 
 span:after { content: "\00a0\00a0"; }
 
-<<<<<<< HEAD
 .page-title { margin-bottom: 100px; }
-=======
-.page-title {
-	margin-bottom: 100px;
-}
->>>>>>> d30fd3c... Added header image, added page titles, made site fully responsive.
 
 	.page-title:before {
 		content: "|\00a0";
@@ -81,13 +75,6 @@ span:after { content: "\00a0\00a0"; }
 			clear: both;
 		}
 
-<<<<<<< HEAD
-=======
-.break {
-	background-color: #5A9BD2;
-	height: 25px; 
-}
->>>>>>> d30fd3c... Added header image, added page titles, made site fully responsive.
 
 /* 2. [Header]
 --------------------------------------------------------------------------------*/
@@ -101,16 +88,11 @@ span:after { content: "\00a0\00a0"; }
 		
 	background-position: center;
 	background-size: cover;
-<<<<<<< HEAD
 	color: #FFF;
-=======
-	color: #fff;
->>>>>>> d30fd3c... Added header image, added page titles, made site fully responsive.
 	opacity: .75;
 	padding-top: 50px;
 }
 
-<<<<<<< HEAD
 #site-title { letter-spacing: -2px; }
 	
 #site-title:first-letter {
@@ -122,12 +104,6 @@ span:after { content: "\00a0\00a0"; }
 .contact-options {
 	font-family: 'Open Sans', 'Helvetica', 'Arial', sans-serif;
 	font-weight: 700;
-=======
-.contact-options {
-	font-family: 'Open Sans', 'Helvetica', 'Arial', sans-serif;
-	font-weight: 700;
-	margin-top: 15px;
->>>>>>> d30fd3c... Added header image, added page titles, made site fully responsive.
 }
 
 .social-icon {
@@ -142,7 +118,6 @@ span:after { content: "\00a0\00a0"; }
 		opacity: 1; 
 		transform: translateY(-10%);
 	}
-<<<<<<< HEAD
 
 	.social-icon span { color: #fff; }
 
@@ -151,10 +126,6 @@ span:after { content: "\00a0\00a0"; }
 	height: 25px; 
 }
 
-=======
-
-	.social-icon span { color: #fff; }
->>>>>>> d30fd3c... Added header image, added page titles, made site fully responsive.
 
 /* 3. [Navigation]
 --------------------------------------------------------------------------------*/
@@ -220,21 +191,13 @@ span:after { content: "\00a0\00a0"; }
 --------------------------------------------------------------------------------*/
 .footer {
 	background-color: #5A9BD2; 
-<<<<<<< HEAD
 	height: 250px; 
 }
-=======
-	height: 250px; }
->>>>>>> d30fd3c... Added header image, added page titles, made site fully responsive.
 
 .footer p {
 	color: #fff;
 	font-size: .85em;
 	margin-top: 75px; 
-<<<<<<< HEAD
-=======
-	
->>>>>>> d30fd3c... Added header image, added page titles, made site fully responsive.
 }
 
 	.footer p a,
@@ -242,10 +205,7 @@ span:after { content: "\00a0\00a0"; }
 		color: #464646;
 		font-weight: bold; 
 	}
-<<<<<<< HEAD
 
-=======
->>>>>>> d30fd3c... Added header image, added page titles, made site fully responsive.
 
 /* 6. [Other]
 --------------------------------------------------------------------------------*/
@@ -260,22 +220,12 @@ span:after { content: "\00a0\00a0"; }
 	width: 20px;
 	z-index: -1;
 }
-<<<<<<< HEAD
 
-=======
-	
->>>>>>> d30fd3c... Added header image, added page titles, made site fully responsive.
 
 /* 7. [Media Queries]
 --------------------------------------------------------------------------------*/
 @media (max-width: 1279px) {
-<<<<<<< HEAD
 	#site-title { text-align: center; }
-=======
-	#site-title {
-		text-align: center;
-	}
->>>>>>> d30fd3c... Added header image, added page titles, made site fully responsive.
 	
 	#photo {
 		display: block;
