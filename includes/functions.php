@@ -9,7 +9,7 @@ function get_styles() {
 	echo($stylesheet_path = on_index() !== false ? "" : "../");
 }
 
-// Function to get the correct url for each of the menu items.
+// Function to get the correct url for each of the menu items, depending on where the user currently is.
 function get_url($name) {
 	// If on the index page,
 	if(on_index()) {
