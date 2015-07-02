@@ -11,6 +11,7 @@ function get_styles() {
 
 // Function to get the correct url for each of the menu items, depending on where the user currently is.
 function get_url($name) {
+	
 	// If on the index page,
 	if(on_index()) {
 		// look in the 'php/' directory for all the pages,
