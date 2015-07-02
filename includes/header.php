@@ -12,7 +12,8 @@
 		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
 		<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600' rel='stylesheet' type='text/css'>
 		<link href="<?php get_styles();?>css/master.css" rel="stylesheet">
-		<link rel="icon" type="image/png" href="images/favicon.png">
+		<link href="<?php get_favicon();?>images/favicon.ico" rel="icon" type="image/png">
+		
 	</head>
 	<body>
 		<div id="header-wrap" role="banner">
