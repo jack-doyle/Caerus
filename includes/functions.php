@@ -9,14 +9,11 @@ function get_styles() {
 	echo($stylesheet_path = on_index() !== false ? "" : "../");
 }
 
-<<<<<<< HEAD
 function get_favicon() {
 	// If on the index page look in images folder, else go up one directory first
 	echo($favicon_path = on_index() !== false ? "" : "../");
 }
 
-=======
->>>>>>> 639d4236f7d06f4cfeb4d6e5affa594750a5ac0f
 // Function to get the correct url for each of the menu items, depending on where the user currently is.
 function get_url($name) {
 	
