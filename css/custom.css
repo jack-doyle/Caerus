@@ -88,15 +88,22 @@ span:after { content: "\00a0\00a0"; }
 		
 	background-position: center;
 	background-size: cover;
-	color: #fff;
+	color: #FFF;
 	opacity: .75;
 	padding-top: 50px;
+}
+
+#site-title { letter-spacing: -2px; }
+	
+#site-title:first-letter {
+	color: #5A9BD2;
+	font-size: 5.5rem;
+	letter-spacing: 0;
 }
 
 .contact-options {
 	font-family: 'Open Sans', 'Helvetica', 'Arial', sans-serif;
 	font-weight: 700;
-	margin-top: 15px;
 }
 
 .social-icon {
