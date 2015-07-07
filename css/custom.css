@@ -14,9 +14,9 @@
 
 background: 		#FFF
 normal text: 		#464646
-links: 				#5A9BD2
-headings: 			#464646
-footer:				#FFF
+links: 			#5A9BD2
+headings: 		#464646
+footer:			#FFF
 --------------------------------------------------------------------------------*/
 
 
@@ -74,7 +74,23 @@ span:after { content: "\00a0\00a0"; }
 			display: table;
 			clear: both;
 		}
+        
+.aside {
+	font-size: .75em; 
+	margin-top: 50px; 
+}
 
+.download-link { color: #5A9BD2; }
+
+.publication a { color: #5A9BD2; }
+
+
+
+
+
+/*------------------------------------*\
+    2. HEADER
+\*------------------------------------*/
 
 /* 2. [Header]
 --------------------------------------------------------------------------------*/
