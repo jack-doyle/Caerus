@@ -3,7 +3,8 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<meta name="description" content="">
+		<title>Caerus Education <?php get_title();?></title>
+        <meta name="description" content="">
 		<meta name="keywords" content="">
 		<meta property="og:description" content="">
 		<meta property="og:site_name" content="Caerus Educational Services">
@@ -11,9 +12,8 @@
 		<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
 		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
 		<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600' rel='stylesheet' type='text/css'>
-		<link href="<?php get_styles();?>css/master.css" rel="stylesheet">
-		<link href="<?php get_favicon();?>images/favicon.ico" rel="icon" type="image/png">
-		
+		<link href="<?php get_path();?>css/master.css" rel="stylesheet">
+		<link href="<?php get_path();?>images/favicon.png" rel="icon" type="image/png" >
 	</head>
 	<body>
 		<div id="header-wrap" role="banner">
